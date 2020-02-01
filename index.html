@@ -8,7 +8,8 @@
   <title>flex-landing</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/libs/jquery.fancybox.min.css"> -->
+  <link rel="stylesheet" href="css/libs/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/libs/jquery.formstyler.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -186,8 +187,44 @@
               судебных инстанциях.
             </div>
           </div>
-        </div>
 
+          <div class="form__box">
+            <form>
+              <div class="form__box-inner">
+                <div class="form__box-left">
+                  <label>
+                    E-mail
+                    <input type="text">
+                  </label>
+                  <label>
+                    Контактный телефон
+                    <input type="phone">
+                  </label>
+                  <label>
+                    ФИО
+                    <input type="text">
+                  </label>
+                  <label>
+                    Тема вопроса
+                    <select>
+                      <option>--------------</option>
+                      <option>--------------</option>
+                      <option>--------------</option>
+                      <option>--------------</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form__box-right">
+                  <label>
+                    Сообщение
+                    <textarea></textarea>
+                  </label>
+                  <button type="submit" class="default-btn">Получить консультацию</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -200,6 +237,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
