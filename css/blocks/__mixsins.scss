@@ -35,3 +35,25 @@
     line-height: 18px;
   }
 }
+
+@mixin topBtn () {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  &__btn {
+
+    a {
+      color: #373636;
+      font-family: 'Roboto', sans-serif;
+      line-height: 24px;
+      letter-spacing: 0.35px;
+
+
+      padding: 5px 38px;
+      border: 3px solid #e6e6e6;
+    }
+  }
+}
