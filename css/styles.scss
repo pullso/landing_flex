@@ -24,6 +24,7 @@ li {
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
+
 }
 
 body {
@@ -35,8 +36,28 @@ body {
 	color: #5e5e5e;
 }
 
-#modal {
+.header__btn-menu {
 	display: none;
+	font-size: 28px;
+}
+
+#modal {
+	width: 300px;
+
+	input {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		outline: none;
+		height: 40px;
+		border: 1px solid #e6e6e6;
+		padding: 0 10px;
+
+		&[type="submit"] {
+			background-color: #ffc222;
+			border: none;
+		}
+	}
 }
 
 @import 'blocks/__header.scss';
@@ -47,3 +68,5 @@ body {
 @import 'blocks/_form';
 @import 'blocks/_advantages';
 @import 'blocks/_news';
+@import 'blocks/_footer';
+@import 'blocks/_media';
