@@ -889,7 +889,7 @@ body {
 }
 
 .about {
-  background: url(/img/about-fon.jpg) center center/cover no-repeat;
+  background: url(../img/about-fon.jpg) center center/cover no-repeat;
   min-height: 300px;
   padding: 37px 0 47px;
 }
@@ -959,7 +959,7 @@ body {
 
 .form__inner {
   padding-bottom: 40px;
-  background: url(/img/form-bg.png) bottom right no-repeat;
+  background: url(../img/form-bg.png) bottom right no-repeat;
   min-height: 460px;
 }
 
@@ -1106,7 +1106,7 @@ body {
 
 .advantages {
   padding: 55px 40px;
-  background: url(/img/advantages-bg.jpg) center center/cover no-repeat;
+  background: url(../img/advantages-bg.jpg) center center/cover no-repeat;
   min-height: 285px;
 }
 
